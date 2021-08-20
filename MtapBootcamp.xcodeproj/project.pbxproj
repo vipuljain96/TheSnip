@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34921EB726CFCAFE003028FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EB626CFCAFE003028FD /* AppDelegate.swift */; };
+		34921EB926CFCAFE003028FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EB826CFCAFE003028FD /* SceneDelegate.swift */; };
+		34921EBB26CFCAFE003028FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EBA26CFCAFE003028FD /* ViewController.swift */; };
+		34921EBE26CFCAFE003028FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34921EBC26CFCAFE003028FD /* Main.storyboard */; };
+		34921EC026CFCAFE003028FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34921EBF26CFCAFE003028FD /* Assets.xcassets */; };
+		34921EC326CFCAFE003028FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34921EC126CFCAFE003028FD /* LaunchScreen.storyboard */; };
+		34921ECE26CFCAFF003028FD /* MtapBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921ECD26CFCAFF003028FD /* MtapBootcampTests.swift */; };
+		34921ED926CFCAFF003028FD /* MtapBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921ED826CFCAFF003028FD /* MtapBootcampUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34921ECA26CFCAFF003028FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34921EAB26CFCAFE003028FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34921EB226CFCAFE003028FD;
+			remoteInfo = MtapBootcamp;
+		};
+		34921ED526CFCAFF003028FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34921EAB26CFCAFE003028FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34921EB226CFCAFE003028FD;
+			remoteInfo = MtapBootcamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34921EB326CFCAFE003028FD /* MtapBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MtapBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34921EB626CFCAFE003028FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34921EB826CFCAFE003028FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34921EBA26CFCAFE003028FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34921EBD26CFCAFE003028FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34921EBF26CFCAFE003028FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34921EC226CFCAFE003028FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34921EC426CFCAFE003028FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34921EC926CFCAFF003028FD /* MtapBootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtapBootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34921ECD26CFCAFF003028FD /* MtapBootcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtapBootcampTests.swift; sourceTree = "<group>"; };
+		34921ECF26CFCAFF003028FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34921ED426CFCAFF003028FD /* MtapBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtapBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34921ED826CFCAFF003028FD /* MtapBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtapBootcampUITests.swift; sourceTree = "<group>"; };
+		34921EDA26CFCAFF003028FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34921EB026CFCAFE003028FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34921EC626CFCAFF003028FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34921ED126CFCAFF003028FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34921EAA26CFCAFE003028FD = {
+			isa = PBXGroup;
+			children = (
+				34921EB526CFCAFE003028FD /* MtapBootcamp */,
+				34921ECC26CFCAFF003028FD /* MtapBootcampTests */,
+				34921ED726CFCAFF003028FD /* MtapBootcampUITests */,
+				34921EB426CFCAFE003028FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34921EB426CFCAFE003028FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34921EB326CFCAFE003028FD /* MtapBootcamp.app */,
+				34921EC926CFCAFF003028FD /* MtapBootcampTests.xctest */,
+				34921ED426CFCAFF003028FD /* MtapBootcampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34921EB526CFCAFE003028FD /* MtapBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				34921EB626CFCAFE003028FD /* AppDelegate.swift */,
+				34921EB826CFCAFE003028FD /* SceneDelegate.swift */,
+				34921EBA26CFCAFE003028FD /* ViewController.swift */,
+				34921EBC26CFCAFE003028FD /* Main.storyboard */,
+				34921EBF26CFCAFE003028FD /* Assets.xcassets */,
+				34921EC126CFCAFE003028FD /* LaunchScreen.storyboard */,
+				34921EC426CFCAFE003028FD /* Info.plist */,
+			);
+			path = MtapBootcamp;
+			sourceTree = "<group>";
+		};
+		34921ECC26CFCAFF003028FD /* MtapBootcampTests */ = {
+			isa = PBXGroup;
+			children = (
+				34921ECD26CFCAFF003028FD /* MtapBootcampTests.swift */,
+				34921ECF26CFCAFF003028FD /* Info.plist */,
+			);
+			path = MtapBootcampTests;
+			sourceTree = "<group>";
+		};
+		34921ED726CFCAFF003028FD /* MtapBootcampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34921ED826CFCAFF003028FD /* MtapBootcampUITests.swift */,
+				34921EDA26CFCAFF003028FD /* Info.plist */,
+			);
+			path = MtapBootcampUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34921EB226CFCAFE003028FD /* MtapBootcamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34921EDD26CFCAFF003028FD /* Build configuration list for PBXNativeTarget "MtapBootcamp" */;
+			buildPhases = (
+				34921EAF26CFCAFE003028FD /* Sources */,
+				34921EB026CFCAFE003028FD /* Frameworks */,
+				34921EB126CFCAFE003028FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MtapBootcamp;
+			productName = MtapBootcamp;
+			productReference = 34921EB326CFCAFE003028FD /* MtapBootcamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34921EC826CFCAFF003028FD /* MtapBootcampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34921EE026CFCAFF003028FD /* Build configuration list for PBXNativeTarget "MtapBootcampTests" */;
+			buildPhases = (
+				34921EC526CFCAFF003028FD /* Sources */,
+				34921EC626CFCAFF003028FD /* Frameworks */,
+				34921EC726CFCAFF003028FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34921ECB26CFCAFF003028FD /* PBXTargetDependency */,
+			);
+			name = MtapBootcampTests;
+			productName = MtapBootcampTests;
+			productReference = 34921EC926CFCAFF003028FD /* MtapBootcampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34921ED326CFCAFF003028FD /* MtapBootcampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34921EE326CFCAFF003028FD /* Build configuration list for PBXNativeTarget "MtapBootcampUITests" */;
+			buildPhases = (
+				34921ED026CFCAFF003028FD /* Sources */,
+				34921ED126CFCAFF003028FD /* Frameworks */,
+				34921ED226CFCAFF003028FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34921ED626CFCAFF003028FD /* PBXTargetDependency */,
+			);
+			name = MtapBootcampUITests;
+			productName = MtapBootcampUITests;
+			productReference = 34921ED426CFCAFF003028FD /* MtapBootcampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34921EAB26CFCAFE003028FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					34921EB226CFCAFE003028FD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					34921EC826CFCAFF003028FD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 34921EB226CFCAFE003028FD;
+					};
+					34921ED326CFCAFF003028FD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 34921EB226CFCAFE003028FD;
+					};
+				};
+			};
+			buildConfigurationList = 34921EAE26CFCAFE003028FD /* Build configuration list for PBXProject "MtapBootcamp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34921EAA26CFCAFE003028FD;
+			productRefGroup = 34921EB426CFCAFE003028FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34921EB226CFCAFE003028FD /* MtapBootcamp */,
+				34921EC826CFCAFF003028FD /* MtapBootcampTests */,
+				34921ED326CFCAFF003028FD /* MtapBootcampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34921EB126CFCAFE003028FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34921EC326CFCAFE003028FD /* LaunchScreen.storyboard in Resources */,
+				34921EC026CFCAFE003028FD /* Assets.xcassets in Resources */,
+				34921EBE26CFCAFE003028FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34921EC726CFCAFF003028FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34921ED226CFCAFF003028FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34921EAF26CFCAFE003028FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34921EBB26CFCAFE003028FD /* ViewController.swift in Sources */,
+				34921EB726CFCAFE003028FD /* AppDelegate.swift in Sources */,
+				34921EB926CFCAFE003028FD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34921EC526CFCAFF003028FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34921ECE26CFCAFF003028FD /* MtapBootcampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34921ED026CFCAFF003028FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34921ED926CFCAFF003028FD /* MtapBootcampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34921ECB26CFCAFF003028FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34921EB226CFCAFE003028FD /* MtapBootcamp */;
+			targetProxy = 34921ECA26CFCAFF003028FD /* PBXContainerItemProxy */;
+		};
+		34921ED626CFCAFF003028FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34921EB226CFCAFE003028FD /* MtapBootcamp */;
+			targetProxy = 34921ED526CFCAFF003028FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34921EBC26CFCAFE003028FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34921EBD26CFCAFE003028FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34921EC126CFCAFE003028FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34921EC226CFCAFE003028FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34921EDB26CFCAFF003028FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34921EDC26CFCAFF003028FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34921EDE26CFCAFF003028FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MtapBootcamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipul.imrich.MtapBootcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34921EDF26CFCAFF003028FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MtapBootcamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipul.imrich.MtapBootcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34921EE126CFCAFF003028FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MtapBootcampTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipul.imrich.MtapBootcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtapBootcamp.app/MtapBootcamp";
+			};
+			name = Debug;
+		};
+		34921EE226CFCAFF003028FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MtapBootcampTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipul.imrich.MtapBootcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtapBootcamp.app/MtapBootcamp";
+			};
+			name = Release;
+		};
+		34921EE426CFCAFF003028FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MtapBootcampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipul.imrich.MtapBootcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MtapBootcamp;
+			};
+			name = Debug;
+		};
+		34921EE526CFCAFF003028FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MtapBootcampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vipul.imrich.MtapBootcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MtapBootcamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34921EAE26CFCAFE003028FD /* Build configuration list for PBXProject "MtapBootcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34921EDB26CFCAFF003028FD /* Debug */,
+				34921EDC26CFCAFF003028FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34921EDD26CFCAFF003028FD /* Build configuration list for PBXNativeTarget "MtapBootcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34921EDE26CFCAFF003028FD /* Debug */,
+				34921EDF26CFCAFF003028FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34921EE026CFCAFF003028FD /* Build configuration list for PBXNativeTarget "MtapBootcampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34921EE126CFCAFF003028FD /* Debug */,
+				34921EE226CFCAFF003028FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34921EE326CFCAFF003028FD /* Build configuration list for PBXNativeTarget "MtapBootcampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34921EE426CFCAFF003028FD /* Debug */,
+				34921EE526CFCAFF003028FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34921EAB26CFCAFE003028FD /* Project object */;
+}
