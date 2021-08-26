@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "user-login-png-512x512px-user-avatar-font-awesome-login-user-login-png-800_800.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
