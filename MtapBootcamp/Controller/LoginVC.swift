@@ -1,5 +1,5 @@
 //
-//  signup.swift
+//  Login.swift
 //  MtapBootcamp
 //
 //  Created by Vipul Jain on 23/08/21.
@@ -7,31 +7,34 @@
 
 import UIKit
 
-class SignupVC: UIViewController {
-    @IBOutlet weak var firstName: UITextField!
-    @IBOutlet weak var lastName: UITextField!
-    @IBOutlet weak var signupEmail: UITextField!
+class LoginVC: UIViewController {
 
+    @IBOutlet weak var emailTextField: UITextField!
     
-    @IBOutlet weak var signupPass: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("signup")
+        print("login")
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func singupButton(_ sender: Any) {
-        let isEmailValid = check(str: (signupEmail?.text)!)
-        let isPasswordValid = check(str: (signupPass?.text)!)
-        let isValidFirstName = checkname(str: (firstName?.text)!)
-        let isValidlastName = checkname(str: (lastName.text)!)
-        if(isPasswordValid && isEmailValid && isValidlastName && isValidFirstName){
-           
-        }
     
+    
+    
+    @IBAction func loginButton(_ sender: Any) {
+        let isUserValid = check(str: (emailTextField?.text)!)
+        let isPassValid = check(str: (passwordTextField?.text)!)
+        print(isUserValid)
+        print(isPassValid)
+        if(isPassValid && isUserValid){
+           let objGeneralDetailsVC =  self.storyboard?.instantiateViewController(identifier: "GeneralDetailsVC") as? GeneralDetailsVC
+            if let objGeneralDetailsVC = objGeneralDetailsVC{ self.navigationController?.pushViewController(objGeneralDetailsVC, animated: true)
+            }
+        }
     }
     func check(str: String) -> Bool {
+            
             var containsCapital = false
             var containsSmall = false
             var containsNumber = false
@@ -45,7 +48,7 @@ class SignupVC: UIViewController {
                     containsSmall = true
                 }
                 else if character >= "0" && character <= "9" {
-                    containsNumber = true
+                    containsNumber = true 
                 } else {
                     containsSpecialCharacter = true
                 }
@@ -53,18 +56,7 @@ class SignupVC: UIViewController {
             
         return containsCapital && containsSmall && containsNumber && containsSpecialCharacter && str.count>=8 && str.count<=16
         }
-    func checkname(str: String) ->Bool{
-        var onlyAlpha = true
-        for character in str {
-            if (character >= "A" && character <= "Z") || (character >= "a" && character <= "z") {
-            continue
-            }
-            else{
-            onlyAlpha = false;
-            }
-        }
-        return onlyAlpha && str.count>=2
-    }
+    
     
     /*
     // MARK: - Navigation

@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3439CE5D26D52AE100CA3EAC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439CE5C26D52AE100CA3EAC /* HomeVC.swift */; };
+		3439CE5F26D52CDD00CA3EAC /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439CE5E26D52CDD00CA3EAC /* CustomCell.swift */; };
+		347065EA26D5032800713262 /* GeneralDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347065E926D5032800713262 /* GeneralDetailsVC.swift */; };
+		347065EC26D504DA00713262 /* InterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347065EB26D504DA00713262 /* InterestVC.swift */; };
+		347065EE26D506CE00713262 /* ExperienceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347065ED26D506CE00713262 /* ExperienceVC.swift */; };
+		347065F026D506F600713262 /* FinalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347065EF26D506F600713262 /* FinalInfoVC.swift */; };
+		347065F226D5159700713262 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347065F126D5159700713262 /* DetailsVC.swift */; };
+		3472A93D26D4345B00E08D7A /* SignupValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472A93C26D4345B00E08D7A /* SignupValidator.swift */; };
 		34921EB726CFCAFE003028FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EB626CFCAFE003028FD /* AppDelegate.swift */; };
 		34921EB926CFCAFE003028FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EB826CFCAFE003028FD /* SceneDelegate.swift */; };
-		34921EBB26CFCAFE003028FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EBA26CFCAFE003028FD /* ViewController.swift */; };
 		34921EBE26CFCAFE003028FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34921EBC26CFCAFE003028FD /* Main.storyboard */; };
 		34921EC026CFCAFE003028FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34921EBF26CFCAFE003028FD /* Assets.xcassets */; };
 		34921EC326CFCAFE003028FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34921EC126CFCAFE003028FD /* LaunchScreen.storyboard */; };
 		34921ECE26CFCAFF003028FD /* MtapBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921ECD26CFCAFF003028FD /* MtapBootcampTests.swift */; };
 		34921ED926CFCAFF003028FD /* MtapBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921ED826CFCAFF003028FD /* MtapBootcampUITests.swift */; };
+		34921EE726D37592003028FD /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EE626D37592003028FD /* WelcomeVC.swift */; };
+		34921EE926D375D9003028FD /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EE826D375D9003028FD /* SignupVC.swift */; };
+		34921EEB26D375E8003028FD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EEA26D375E8003028FD /* LoginVC.swift */; };
+		34921EED26D375FE003028FD /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EEC26D375FE003028FD /* CalculatorVC.swift */; };
+		34921EEF26D3A4E5003028FD /* Stacktdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921EEE26D3A4E5003028FD /* Stacktdd.swift */; };
+		34B93C8226D3D01B0085A535 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B93C8126D3D01B0085A535 /* LoginValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3439CE5C26D52AE100CA3EAC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		3439CE5E26D52CDD00CA3EAC /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		347065E926D5032800713262 /* GeneralDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralDetailsVC.swift; sourceTree = "<group>"; };
+		347065EB26D504DA00713262 /* InterestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestVC.swift; sourceTree = "<group>"; };
+		347065ED26D506CE00713262 /* ExperienceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceVC.swift; sourceTree = "<group>"; };
+		347065EF26D506F600713262 /* FinalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalInfoVC.swift; sourceTree = "<group>"; };
+		347065F126D5159700713262 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		3472A93C26D4345B00E08D7A /* SignupValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupValidator.swift; sourceTree = "<group>"; };
 		34921EB326CFCAFE003028FD /* MtapBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MtapBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34921EB626CFCAFE003028FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34921EB826CFCAFE003028FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34921EBA26CFCAFE003028FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34921EBD26CFCAFE003028FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34921EBF26CFCAFE003028FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34921EC226CFCAFE003028FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +69,12 @@
 		34921ED426CFCAFF003028FD /* MtapBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtapBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34921ED826CFCAFF003028FD /* MtapBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtapBootcampUITests.swift; sourceTree = "<group>"; };
 		34921EDA26CFCAFF003028FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34921EE626D37592003028FD /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		34921EE826D375D9003028FD /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		34921EEA26D375E8003028FD /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		34921EEC26D375FE003028FD /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
+		34921EEE26D3A4E5003028FD /* Stacktdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacktdd.swift; sourceTree = "<group>"; };
+		34B93C8126D3D01B0085A535 /* LoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +125,13 @@
 		34921EB526CFCAFE003028FD /* MtapBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				34921EB626CFCAFE003028FD /* AppDelegate.swift */,
-				34921EB826CFCAFE003028FD /* SceneDelegate.swift */,
-				34921EBA26CFCAFE003028FD /* ViewController.swift */,
-				34921EBC26CFCAFE003028FD /* Main.storyboard */,
+				34B1168E26D77D3B0075B4F0 /* Supporting Files */,
+				34B1168C26D77CA80075B4F0 /* Controller */,
+				34B1168A26D77C9C0075B4F0 /* View */,
+				34B1168926D77C960075B4F0 /* Model */,
 				34921EBF26CFCAFE003028FD /* Assets.xcassets */,
-				34921EC126CFCAFE003028FD /* LaunchScreen.storyboard */,
 				34921EC426CFCAFE003028FD /* Info.plist */,
+				34921EEE26D3A4E5003028FD /* Stacktdd.swift */,
 			);
 			path = MtapBootcamp;
 			sourceTree = "<group>";
@@ -115,6 +141,8 @@
 			children = (
 				34921ECD26CFCAFF003028FD /* MtapBootcampTests.swift */,
 				34921ECF26CFCAFF003028FD /* Info.plist */,
+				34B93C8126D3D01B0085A535 /* LoginValidator.swift */,
+				3472A93C26D4345B00E08D7A /* SignupValidator.swift */,
 			);
 			path = MtapBootcampTests;
 			sourceTree = "<group>";
@@ -126,6 +154,65 @@
 				34921EDA26CFCAFF003028FD /* Info.plist */,
 			);
 			path = MtapBootcampUITests;
+			sourceTree = "<group>";
+		};
+		34B1168926D77C960075B4F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34B1168A26D77C9C0075B4F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34B1168D26D77D060075B4F0 /* StoryBoard */,
+				34B1168B26D77CA20075B4F0 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34B1168B26D77CA20075B4F0 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3439CE5E26D52CDD00CA3EAC /* CustomCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		34B1168C26D77CA80075B4F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34921EE626D37592003028FD /* WelcomeVC.swift */,
+				34921EE826D375D9003028FD /* SignupVC.swift */,
+				34921EEA26D375E8003028FD /* LoginVC.swift */,
+				347065E926D5032800713262 /* GeneralDetailsVC.swift */,
+				347065EB26D504DA00713262 /* InterestVC.swift */,
+				347065ED26D506CE00713262 /* ExperienceVC.swift */,
+				347065EF26D506F600713262 /* FinalInfoVC.swift */,
+				3439CE5C26D52AE100CA3EAC /* HomeVC.swift */,
+				347065F126D5159700713262 /* DetailsVC.swift */,
+				34921EEC26D375FE003028FD /* CalculatorVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34B1168D26D77D060075B4F0 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				34921EBC26CFCAFE003028FD /* Main.storyboard */,
+				34921EC126CFCAFE003028FD /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		34B1168E26D77D3B0075B4F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34921EB626CFCAFE003028FD /* AppDelegate.swift */,
+				34921EB826CFCAFE003028FD /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +345,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34921EBB26CFCAFE003028FD /* ViewController.swift in Sources */,
+				34921EEF26D3A4E5003028FD /* Stacktdd.swift in Sources */,
+				347065F226D5159700713262 /* DetailsVC.swift in Sources */,
+				34921EE726D37592003028FD /* WelcomeVC.swift in Sources */,
+				347065EE26D506CE00713262 /* ExperienceVC.swift in Sources */,
+				34921EED26D375FE003028FD /* CalculatorVC.swift in Sources */,
+				34921EE926D375D9003028FD /* SignupVC.swift in Sources */,
+				34921EEB26D375E8003028FD /* LoginVC.swift in Sources */,
 				34921EB726CFCAFE003028FD /* AppDelegate.swift in Sources */,
+				347065EA26D5032800713262 /* GeneralDetailsVC.swift in Sources */,
 				34921EB926CFCAFE003028FD /* SceneDelegate.swift in Sources */,
+				347065EC26D504DA00713262 /* InterestVC.swift in Sources */,
+				3439CE5D26D52AE100CA3EAC /* HomeVC.swift in Sources */,
+				3439CE5F26D52CDD00CA3EAC /* CustomCell.swift in Sources */,
+				347065F026D506F600713262 /* FinalInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +366,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3472A93D26D4345B00E08D7A /* SignupValidator.swift in Sources */,
+				34B93C8226D3D01B0085A535 /* LoginValidator.swift in Sources */,
 				34921ECE26CFCAFF003028FD /* MtapBootcampTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

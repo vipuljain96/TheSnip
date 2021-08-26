@@ -1,5 +1,5 @@
 //
-//  Login.swift
+//  signup.swift
 //  MtapBootcamp
 //
 //  Created by Vipul Jain on 23/08/21.
@@ -7,29 +7,29 @@
 
 import UIKit
 
-class Login: UIViewController {
-
-    @IBOutlet weak var emailTextField: UITextField!
-    
-    @IBOutlet weak var passwordTextField: UITextField!
+class SignupVC: UIViewController {
+    @IBOutlet weak var firstName: UITextField!
+    @IBOutlet weak var lastName: UITextField!
+    @IBOutlet weak var signupEmail: UITextField!
+    @IBOutlet weak var signupPass: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("login")
+        print("signup")
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func loginButton(_ sender: Any) {
-        let isUserValid = check(str: (emailTextField?.text)!)
-        let isPassValid = check(str: (passwordTextField?.text)!)
-        print(isUserValid)
-        print(isPassValid)
-        if(isPassValid && isUserValid){
-            
+    @IBAction func singupButton(_ sender: Any) {
+        let isEmailValid = check(str: (signupEmail?.text)!)
+        let isPasswordValid = check(str: (signupPass?.text)!)
+        let isValidFirstName = checkname(str: (firstName?.text)!)
+        let isValidlastName = checkname(str: (lastName.text)!)
+        if(isPasswordValid && isEmailValid && isValidlastName && isValidFirstName){
+           
         }
+    
     }
     func check(str: String) -> Bool {
-            
             var containsCapital = false
             var containsSmall = false
             var containsNumber = false
@@ -51,7 +51,18 @@ class Login: UIViewController {
             
         return containsCapital && containsSmall && containsNumber && containsSpecialCharacter && str.count>=8 && str.count<=16
         }
-    
+    func checkname(str: String) ->Bool{
+        var onlyAlpha = true
+        for character in str {
+            if (character >= "A" && character <= "Z") || (character >= "a" && character <= "z") {
+            continue
+            }
+            else{
+            onlyAlpha = false;
+            }
+        }
+        return onlyAlpha && str.count>=2
+    }
     
     /*
     // MARK: - Navigation
