@@ -9,11 +9,20 @@ import UIKit
 
 class ExperienceVC: UIViewController {
 
+    @IBOutlet weak var BeginnerExperienceButton: UIButton!
+    @IBOutlet weak var IntermediateExperienceButton: UIButton!
+    @IBOutlet weak var ExpertExperienceButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        BeginnerExperienceButton.roundedButton()
+        IntermediateExperienceButton.roundedButton()
+        ExpertExperienceButton.roundedButton()
         // Do any additional setup after loading the view.
     }
+    @IBAction func ExperienceBackButton(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     
 
     /*

@@ -12,20 +12,30 @@ class SignupVC: UIViewController {
     @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var signupEmail: UITextField!
     @IBOutlet weak var signupPass: UITextField!
-    
+    @IBOutlet weak var facebookButton: UIButton!
+    @IBOutlet weak var createYourAccountButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         print("signup")
-        // Do any additional setup after loading the view.
+        
+        createYourAccountButton.roundedButton()
+    }
+    @IBAction func signupBackButton(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
     }
     
-    @IBAction func singupButton(_ sender: Any) {
+    @IBAction func createYourAccountButton(_ sender: Any) {
         let isEmailValid = check(str: (signupEmail?.text)!)
         let isPasswordValid = check(str: (signupPass?.text)!)
         let isValidFirstName = checkname(str: (firstName?.text)!)
-        let isValidlastName = checkname(str: (lastName.text)!)
+        let isValidlastName = checkname(str: (lastName?.text)!)
+        print(isValidlastName)
+        print(isValidFirstName)
         if(isPasswordValid && isEmailValid && isValidlastName && isValidFirstName){
-           
+            print("button pressed")
+            let objGeneralDetailsVC =  self.storyboard?.instantiateViewController(identifier: "GeneralDetailsVC") as? GeneralDetailsVC
+             if let objGeneralDetailsVC = objGeneralDetailsVC{ self.navigationController?.pushViewController(objGeneralDetailsVC, animated: true)
+             }
         }
     
     }
@@ -54,14 +64,14 @@ class SignupVC: UIViewController {
     func checkname(str: String) ->Bool{
         var onlyAlpha = true
         for character in str {
-            if (character >= "A" && character <= "Z") || (character >= "a" && character <= "z") {
+            if ((character >= "A" && character <= "Z") || (character >= "a" && character <= "z")) {
             continue
             }
             else{
             onlyAlpha = false;
             }
         }
-        return onlyAlpha && str.count>=2
+        return onlyAlpha && str.count>3
     }
     
     /*

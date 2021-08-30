@@ -9,13 +9,17 @@ import UIKit
 
 class InterestVC: UIViewController {
 
+    @IBOutlet weak var SubmitInterestButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        SubmitInterestButton.roundedButton()
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func InterestBackButton(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

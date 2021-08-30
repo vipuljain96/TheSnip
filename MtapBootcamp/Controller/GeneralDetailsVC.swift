@@ -9,9 +9,11 @@ import UIKit
 
 class GeneralDetailsVC: UIViewController {
 
+    @IBOutlet weak var SubmitGeneralDetailsButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        SubmitGeneralDetailsButton.roundedButton()
         // Do any additional setup after loading the view.
     }
     

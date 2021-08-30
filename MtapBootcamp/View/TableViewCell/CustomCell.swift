@@ -9,6 +9,13 @@ import UIKit
 
 class CustomCell: UITableViewCell {
 
+    
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var hashTagsLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -9,13 +9,17 @@ import UIKit
 
 class FinalInfoVC: UIViewController {
 
+    @IBOutlet weak var NextButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        NextButton.roundedButton()
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func FinalInfoBackButton(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
