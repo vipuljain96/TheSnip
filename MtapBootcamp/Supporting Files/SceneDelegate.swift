@@ -13,13 +13,31 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+
+        guard let scene = (scene as? UIWindowScene) else { return }
+        window  = UIWindow(windowScene: scene)
+        Utilities().setUserDefaults(for: "false", value: "isLoggedIn")
+        let isLoggedIn = Utilities().checkUserLoggedIn()
+        print(isLoggedIn)
+        if(isLoggedIn){
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let tabBar = storyBoard.instantiateViewController(identifier: "TabBarVC") as? TabBarVC
+            if let tabBar = tabBar{
+                let navigationController = UINavigationController(rootViewController: tabBar)
+                window?.rootViewController = navigationController
+            }
+        }
+        else{
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let welcomecontroller = storyBoard.instantiateViewController(identifier: "WelcomeVC") as? WelcomeVC
+            if let welcomecontroller = welcomecontroller{
+                let navigationController = UINavigationController(rootViewController: welcomecontroller)
+                window?.rootViewController = navigationController
+            }
+        }
         print("inside scene")
     }
-
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

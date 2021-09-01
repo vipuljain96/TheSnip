@@ -26,7 +26,8 @@ class HomeVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         }
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            return 420
+            return 460
+            
         }
     
         override func viewDidLoad() {

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class SignupVC: UIViewController {
     @IBOutlet weak var firstName: UITextField!
@@ -18,6 +19,7 @@ class SignupVC: UIViewController {
         super.viewDidLoad()
         print("signup")
         
+        IQKeyboardManager.shared.enable = true
         createYourAccountButton.roundedButton()
     }
     @IBAction func signupBackButton(_ sender: Any) {

@@ -36,9 +36,11 @@ class LoginVC: UIViewController {
         print(isUserValid)
         print(isPassValid)
         if(isPassValid && isUserValid){
+            Utilities().setUserDefaults(for: "isLoggedIn", value: "true")
            let objGeneralDetailsVC =  self.storyboard?.instantiateViewController(identifier: "GeneralDetailsVC") as? GeneralDetailsVC
             if let objGeneralDetailsVC = objGeneralDetailsVC{ self.navigationController?.pushViewController(objGeneralDetailsVC, animated: true)
             }
+            
         }
     }
     func check(str: String) -> Bool {
